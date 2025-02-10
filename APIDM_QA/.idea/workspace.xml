@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b57518ff-1804-4d8e-9a59-e124a61292b2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/createUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/createUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/superAdminLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/superAdminLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/superAdminLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/superAdminLogin.class" afterDir="false" />
     </list>
@@ -37,9 +38,12 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "TestNG.createUser.executor": "Run",
+    "TestNG.createUser.userCreate (1).executor": "Debug",
     "TestNG.createUser.userCreate.executor": "Run",
     "TestNG.superAdminLogin.adminLogin.executor": "Run",
     "TestNG.superAdminLogin.executor": "Run",
+    "TestNG.test.adminLogin.executor": "Run",
     "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/lanka/Desktop/testing apidm/APIDM_QA/src/main/java/org/example/Main.java",
@@ -48,16 +52,14 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.createUser.userCreate">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+  <component name="RunManager" selected="TestNG.createUser">
+    <configuration name="createUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APIDM_QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -97,12 +99,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.adminLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIDM_QA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <option name="METHOD_NAME" value="adminLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.createUser.userCreate" />
-        <item itemvalue="TestNG.superAdminLogin.adminLogin" />
+        <item itemvalue="TestNG.createUser" />
         <item itemvalue="TestNG.superAdminLogin" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.createUser.userCreate" />
+        <item itemvalue="TestNG.test.adminLogin" />
+        <item itemvalue="TestNG.superAdminLogin.adminLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +139,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/createUser.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
